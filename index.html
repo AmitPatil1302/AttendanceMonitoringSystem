@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Monitoring System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Attendance Monitoring System</h1>
+    
+    <form id="loginForm">
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <div id="attendanceForm" style="display: none;">
+        <select id="courseSelect">
+            <option value="" selected disabled>Select Course</option>
+            <option value="course1">Course 1</option>
+            <option value="course2">Course 2</option>
+            <!-- Add options dynamically from database if needed -->
+        </select>
+        <button id="markAttendanceBtn">Mark Attendance</button>
+    </div>
+
+    <div id="message"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
