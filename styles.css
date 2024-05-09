@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+form, #attendanceForm {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    margin-right: 10px;
+}
+
+#message {
+    font-weight: bold;
+}
+
